@@ -15,7 +15,7 @@ RUN export TZ=America/New_York && \
 	rm /usr/share/novnc/app/images/icons/*
 
 ENV DATA_DIR=/rapidphotodownloader
-ENV DL_URL="https://launchpad.net/rapid/pyqt/0.9.17/+download/install.py"
+ENV DL_URL="https://launchpad.net/rapid/pyqt/0.9.19b3/+download/install.py"
 ENV FORCE_UPDATE=""
 ENV CUSTOM_RES_W=1024
 ENV CUSTOM_RES_H=881
