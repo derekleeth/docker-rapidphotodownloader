@@ -2,7 +2,7 @@ FROM ich777/novnc-baseimage
 
 LABEL maintainer="admin@minenet.at"
 
-RUN export TZ=Europe/Rome && \
+RUN export TZ=America/New_York && \
 	apt-get update && \
 	ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
 	echo $TZ > /etc/timezone && \
